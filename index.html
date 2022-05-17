@@ -1,0 +1,12 @@
+<body>
+  <img src="cookie.png" onclick="clicked();">
+  <p id="count">0 Cookies!</p>
+  
+  <script>
+    var countIndex=0
+    function clicked(){
+      countIndex+=1;
+      count=document.getElementById("count").innerHTML=countIndex+" Cookies!";
+    }
+  </script>
+</body>
